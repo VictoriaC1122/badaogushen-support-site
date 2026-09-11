@@ -4,79 +4,140 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <title>霸道股神｜隱私權與聯絡</title>
-  <meta name="description" content="霸道股神 App 的隱私權政策、資料使用說明與聯絡方式。">
+  <meta name="theme-color" content="#f4f6f9">
+  <title>霸道股神｜隱私權與支援</title>
+  <meta name="description" content="霸道股神 App 的隱私權政策、行情資料說明與聯絡方式。">
+  <link rel="icon" href="assets/app-icon.png">
+  <link rel="apple-touch-icon" href="assets/app-icon.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要內容</a>
-  <main id="main-content" class="page">
-    <section class="hero" aria-labelledby="page-title">
-      <div class="hero-copy">
-        <div class="badge">霸道股神</div>
-        <h1 id="page-title">隱私權與聯絡</h1>
-        <p>有投資問題，可以直接查；資料怎麼使用，也應該說清楚。霸道股神的搜尋與學習紀錄都留在你的裝置上，不會拿去追蹤或投放廣告。</p>
-        <div class="actions">
-          <a class="button primary" href="mailto:victoriacheng1122@gmail.com">聯絡我們</a>
-          <a class="button secondary" href="#privacy">查看隱私權政策</a>
-        </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="回到頁首">
+      <img src="assets/app-icon.png" alt="" width="44" height="44">
+      <span>霸道股神</span>
+    </a>
+    <nav aria-label="主要導覽">
+      <a href="#support">聯絡支援</a>
+      <a href="#privacy">隱私權政策</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="top" class="intro" aria-labelledby="page-title">
+      <img class="app-icon" src="assets/app-icon.png" alt="霸道股神 App icon" width="1024" height="1024">
+      <p class="eyebrow">PRIVACY &amp; SUPPORT</p>
+      <h1 id="page-title">市場資訊要清楚，<br>資料怎麼處理也一樣。</h1>
+      <p class="lede">霸道股神提供台股盤後資訊、自選追蹤與市場日程。使用 App 不需要帳號，也沒有廣告追蹤。</p>
+      <div class="actions">
+        <a class="button primary" href="mailto:victoriacheng1122@gmail.com">聯絡我們</a>
+        <a class="button secondary" href="#privacy">閱讀隱私權政策</a>
       </div>
+    </section>
 
-      <div class="icon-stage" aria-label="霸道股神 App icon">
-        <div class="halo"></div>
-        <img src="assets/app-icon.png" alt="霸道股神 App icon" width="1024" height="1024">
-        <div class="icon-caption">
-          <span>Stock Mastery</span>
-          <strong>投資名詞與風險，一次查清楚</strong>
-        </div>
+    <section class="facts" aria-label="資料處理摘要">
+      <article>
+        <span class="fact-mark">01</span>
+        <h2>不用建立帳號</h2>
+        <p>自選、最近瀏覽與提醒偏好保存在這台裝置。</p>
+      </article>
+      <article>
+        <span class="fact-mark">02</span>
+        <h2>不做廣告追蹤</h2>
+        <p>沒有廣告 SDK、第三方分析 SDK，也不出售個人資料。</p>
+      </article>
+      <article>
+        <span class="fact-mark">03</span>
+        <h2>官方盤後資料</h2>
+        <p>行情來自臺灣證券交易所與證券櫃檯買賣中心的公開資料服務。</p>
+      </article>
+    </section>
+
+    <section id="support" class="support-band" aria-labelledby="support-title">
+      <div>
+        <p class="eyebrow">SUPPORT</p>
+        <h2 id="support-title">遇到問題，直接告訴我們。</h2>
+        <p>若行情、通知、Widget 或畫面顯示不如預期，請附上裝置型號、iOS 版本與問題畫面，方便我們確認。</p>
       </div>
+      <a class="support-email" href="mailto:victoriacheng1122@gmail.com">
+        <span>聯絡信箱</span>
+        <strong>victoriacheng1122@gmail.com</strong>
+      </a>
     </section>
 
-    <section class="grid">
-      <article class="card">
-        <span class="eyebrow">Support</span>
-        <h2>需要協助？</h2>
-        <p>如果你遇到 App 使用問題、內容錯誤、通知或 Widget 顯示異常，可以寄信給我們。</p>
-        <a href="mailto:victoriacheng1122@gmail.com">victoriacheng1122@gmail.com</a>
+    <section id="privacy" class="policy-layout" aria-labelledby="privacy-title">
+      <aside>
+        <p class="eyebrow">PRIVACY POLICY</p>
+        <h2 id="privacy-title">隱私權政策</h2>
+        <p class="updated">最後更新：2026 年 9 月 11 日</p>
+        <nav class="toc" aria-label="隱私權政策目錄">
+          <a href="#collection">資料收集</a>
+          <a href="#market-data">行情資料</a>
+          <a href="#local-data">本機資料</a>
+          <a href="#notifications">通知</a>
+          <a href="#sharing">分享與追蹤</a>
+          <a href="#rights">資料控制</a>
+          <a href="#disclaimer">服務聲明</a>
+        </nav>
+      </aside>
+
+      <article class="policy-copy">
+        <section id="collection">
+          <h3>我們收集哪些資料</h3>
+          <p>目前版本不需要登入，也不要求姓名、電話、地址或付款資料。App 不會要求相機、照片、麥克風、定位、聯絡人、HealthKit 或追蹤權限。</p>
+        </section>
+
+        <section id="market-data">
+          <h3>行情資料與網路連線</h3>
+          <p>App 與 Widget 會連線至臺灣證券交易所及證券櫃檯買賣中心的公開資料服務，取得股票、ETF、指數、估值、成交資訊、歷史行情與除權息日程。這些請求不包含你的自選清單或最近瀏覽內容。</p>
+          <p>公開資料服務在一般網路連線中可能接收到 IP 位址、裝置傳送的標準連線資訊與 User-Agent；相關處理由資料提供單位依其政策管理。</p>
+          <ul class="source-links">
+            <li><a href="https://openapi.twse.com.tw/" rel="noreferrer">臺灣證券交易所 OpenAPI</a></li>
+            <li><a href="https://www.tpex.org.tw/openapi/" rel="noreferrer">證券櫃檯買賣中心 OpenAPI</a></li>
+          </ul>
+        </section>
+
+        <section id="local-data">
+          <h3>保存在裝置上的資料</h3>
+          <p>自選標的、最近瀏覽、行情快取、通知偏好，以及選用投資指南中的收藏與閱讀狀態，會保存在你的裝置，用來加快開啟速度並延續使用狀態。這些資料不會上傳到我們的伺服器。</p>
+        </section>
+
+        <section id="notifications">
+          <h3>通知</h3>
+          <p>收盤提醒是選用功能。只有在你看過用途說明並主動點選開啟後，App 才會請求 iOS 通知權限。提醒由裝置排程，可隨時在 App 或系統設定中關閉；拒絕通知不影響其他功能。</p>
+        </section>
+
+        <section id="sharing">
+          <h3>資料分享、廣告與追蹤</h3>
+          <p>霸道股神沒有廣告 SDK、第三方分析 SDK 或跨 App 追蹤，也不出售個人資料。除了取得上述公開市場資料所需的網路請求外，不會將本機自選與使用紀錄提供給第三方。</p>
+        </section>
+
+        <section id="rights">
+          <h3>你如何控制資料</h3>
+          <p>可在 App 的「我的」頁清除自選與瀏覽紀錄。刪除 App 也會移除 App 儲存的本機資料；iOS 管理的系統通知權限可在「設定」中調整。</p>
+        </section>
+
+        <section id="disclaimer">
+          <h3>服務與投資聲明</h3>
+          <p>霸道股神提供盤後市場資訊與一般性投資參考，不是券商服務，不提供下單、代客操作、個人化投資建議或報酬保證。行情可能延遲、缺漏或因資料源暫時不可用而顯示快取內容，任何交易決定仍應以券商與交易所正式資訊為準。</p>
+        </section>
+
+        <section>
+          <h3>政策變更與聯絡方式</h3>
+          <p>若未來加入帳號、雲端同步、訂閱或新的資料處理方式，我們會更新本頁。對本政策有疑問，請寄信至 <a href="mailto:victoriacheng1122@gmail.com">victoriacheng1122@gmail.com</a>。</p>
+        </section>
       </article>
-
-      <article class="card">
-        <span class="eyebrow">Education</span>
-        <h2>重要聲明</h2>
-        <p>霸道股神提供投資教育與風險觀念內容，不是券商服務，也不是個人化投資建議。</p>
-      </article>
     </section>
-
-    <section id="privacy" class="panel">
-      <span class="eyebrow">Privacy Policy</span>
-      <h2>隱私權政策</h2>
-      <p class="updated">最後更新：2026 年 9 月 11 日</p>
-
-      <h3>我們收集哪些資料</h3>
-      <p>目前版本不需要登入，也不會要求相機、定位、照片、麥克風、聯絡人或 HealthKit 權限。App 只會在你的裝置上保存最近查詢、閱讀進度、收藏、測驗紀錄、投資人格結果與通知偏好。</p>
-
-      <h3>資料如何使用</h3>
-      <p>這些資料用來保留最近查過的內容、接續閱讀、顯示收藏與測驗結果。刪除 App 後，這些本機資料也會一併移除。</p>
-
-      <h3>搜尋</h3>
-      <p>投資知識搜尋會直接比對 App 內建的文章與字典，不會把你輸入的問題傳送到外部伺服器。</p>
-
-      <h3>通知</h3>
-      <p>每日新知提醒是選擇性功能。App 會先顯示說明頁，只有在你點選開啟後才會請求 iOS 通知權限。你可以隨時在系統設定中關閉通知。</p>
-
-      <h3>資料分享</h3>
-      <p>目前版本不會把你的本機學習紀錄、收藏或測驗結果上傳到伺服器，也不會將資料出售或提供給第三方作廣告用途。</p>
-
-      <h3>兒童隱私</h3>
-      <p>本 App 面向一般投資入門學習者，不刻意收集兒童個人資料。</p>
-
-      <h3>政策變更</h3>
-      <p>如果未來加入帳號、雲端同步、訂閱或其他資料處理功能，我們會更新本頁內容並在 App 內提供合理說明。</p>
-    </section>
-
-    <footer>
-      <p>© 2026 霸道股神. All rights reserved.</p>
-    </footer>
   </main>
+
+  <footer>
+    <div>
+      <strong>霸道股神</strong>
+      <span>盤後市場觀察工具</span>
+    </div>
+    <p>© 2026 霸道股神. All rights reserved.</p>
+  </footer>
 </body>
 </html>
