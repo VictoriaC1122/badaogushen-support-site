@@ -19,6 +19,13 @@ Developer / original-content rights holder: Yung Wen Cheng. Stock Mastery is the
 - Clarified stock-symbol transmission, email support data, Gmail/GitHub hosting, retention/deletion requests, and local backup behavior.
 - Refined mobile navigation, keyboard focus, light/dark contrast, wrapping, and 44px navigation targets. No tracking or third-party scripts added.
 
+## October 2, 2026 Update
+
+- Matched build 11 terminology: Review Reminders run on weekdays at 18:00 device-local time, including exchange holidays; they are not market-update or order-fill alerts.
+- Explained user-entered custom fill prices and their separation from market quotes and position valuation.
+- Documented local getting-started progress and custom prices, plus cookie-free market sessions without shared system credential storage.
+- Kept third-party data and licensing disclosures unchanged; these copy corrections do not resolve pending provider permissions or the App Store privacy questionnaire.
+
 ## Compliance References
 
 - [Apple platform metadata](https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/): use the year and actual rights holder in the Copyright field; Apple supplies the symbol. Support URLs must expose genuine contact information.

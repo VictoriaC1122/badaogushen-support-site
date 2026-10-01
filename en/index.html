@@ -106,8 +106,12 @@
         <p>No. Balances, orders, positions, and results are virtual records on your device. They are never sent to a broker and cannot be withdrawn or redeemed. A simulated result does not guarantee execution in a real market.</p>
       </details>
       <details>
+        <summary>Does a custom price change quotes or position values?</summary>
+        <p>No. A custom price applies only to that paper fill. Order history labels it as user-entered and unverified. Quotes, charts, and position values still use the delayed data received by the app. A custom price is not a verified market quote and never charges real funds.</p>
+      </details>
+      <details>
         <summary>How can I adjust missing reminders?</summary>
-        <p>Check Closing Reminder in Profile and notification permission in system Settings. Focus modes and system settings can affect delivery. Other app features remain available without notifications.</p>
+        <p>Check Review Reminders in Profile and notification permission in system Settings. Reminders are scheduled Monday through Friday at 6:00 p.m. in your device's local time, including exchange holidays. They are not market-update or fill alerts. Focus modes and system settings can affect delivery; other features remain available without notifications.</p>
       </details>
       <details>
         <summary>How do I remove my records?</summary>
@@ -145,7 +149,7 @@
       <aside>
         <p class="eyebrow">PRIVACY POLICY</p>
         <h2 id="privacy-title">Privacy Policy</h2>
-        <p class="updated">Effective and last updated: September 24, 2026</p>
+        <p class="updated">Effective and last updated: October 2, 2026</p>
         <nav class="toc" aria-label="Privacy policy contents">
           <a href="#collection">Data collection</a>
           <a href="#market-data">Market data</a>
@@ -169,6 +173,7 @@
           <h3>Market data and network connections</h3>
           <p>The app connects to Taiwan Stock Exchange and Taipei Exchange services for Taiwan stocks, ETFs, indices, valuation data, trading activity, price history, and corporate actions. The market widget retrieves end-of-day data from the Taiwan Stock Exchange. U.S. screens connect to Yahoo Finance for delayed daily and historical data covering a curated set of stocks, ETFs, and major indices.</p>
           <p>A request for a security's price history includes its symbol and the requested dates or period, so the provider may learn which security was queried. The app does not upload complete watchlists, complete browsing histories, paper positions, orders, or trading notes. This is separate from sending the individual parameters needed to retrieve market data.</p>
+          <p>The app's market-data connections do not use provider cookies or shared system credential storage. This does not mean providers do not process connection information.</p>
           <p>As with ordinary internet connections, these providers may receive an IP address, User-Agent, and standard connection metadata. Their handling of that information is governed by their respective policies.</p>
           <ul class="source-links">
             <li><a href="https://openapi.twse.com.tw/" rel="noreferrer">Taiwan Stock Exchange OpenAPI</a></li>
@@ -179,12 +184,12 @@
 
         <section id="local-data">
           <h3>Information stored on your device</h3>
-          <p>Virtual TWD and USD balances, paper orders, positions, results, and order history are stored on your device. Watchlists, recent views, market cache, notification preferences, bookmarks, and reading progress are also stored locally to preserve your state and improve startup speed. This information is not uploaded to our servers and is never sent to a broker or exchange.</p>
+          <p>Virtual TWD and USD balances, paper orders, positions, results, order history, and custom fill prices are stored on your device. Watchlists, recent views, market cache, notification preferences, bookmarks, reading progress, and getting-started progress are also stored locally to preserve your state. This information is not uploaded to our servers and is never sent to a broker or exchange.</p>
         </section>
 
         <section id="notifications">
           <h3>Notifications</h3>
-          <p>Closing reminders are optional. The app requests iOS notification permission only after you view an explanation and choose to enable reminders. Reminders are scheduled on your device and can be disabled in the app or system settings. Declining permission does not affect any other feature.</p>
+          <p>Review reminders are optional. The app requests iOS notification permission only after you view an explanation and choose to enable reminders. They are scheduled on your device Monday through Friday at 6:00 p.m. local time, including exchange holidays, rather than triggered by market updates or order fills. You can disable them in the app or system settings. Declining permission does not affect any other feature.</p>
         </section>
 
         <section id="sharing">
