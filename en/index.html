@@ -35,7 +35,7 @@
       <img class="app-icon" src="../assets/app-icon.png" alt="Stock Mastery app icon" width="1024" height="1024">
       <p class="eyebrow">STOCK MASTERY / SUPPORT &amp; LEGAL</p>
       <h1 id="page-title">Stock Mastery<br>Support &amp; legal</h1>
-      <p class="lede">Get help with the app and learn how your information and third-party content are handled. Stock Mastery offers Taiwan and U.S. market information, financial references, and practice with virtual funds. It does not provide real trading.</p>
+      <p class="lede">Get help with the app and learn how your information and third-party content are handled. Stock Mastery offers Taiwan end-of-day data, financial references and paper trading. U.S. practice uses custom fill prices, not a market feed. No real trading is provided.</p>
       <div class="actions">
         <a class="button primary" href="#support">Contact Support</a>
         <a class="button secondary" href="#privacy">Read the Privacy Policy</a>
@@ -99,7 +99,7 @@
       <h2 id="faq-title">Common questions</h2>
       <details>
         <summary>Why does a quote differ from the current trading price?</summary>
-        <p>Taiwan quotes use official end-of-day data; selected U.S. quotes use delayed data. Neither is a guaranteed real-time feed. Holidays, pending publication, or connection failures may leave the previous trading day or cached data on screen. Check the displayed timestamp and try refreshing.</p>
+        <p>Taiwan uses official open end-of-day data. Holidays, pending publication or connection failures may leave older or cached data on screen; check the date. From 2.2.0 (12), U.S. practice uses prices you enter. U.S. quotes and historical charts for either market are not provided.</p>
       </details>
       <details>
         <summary>Can a paper order spend real money?</summary>
@@ -107,7 +107,7 @@
       </details>
       <details>
         <summary>Does a custom price change quotes or position values?</summary>
-        <p>No. A custom price applies only to that paper fill. Order history labels it as user-entered and unverified. Quotes, charts, and position values still use the delayed data received by the app. A custom price is not a verified market quote and never charges real funds.</p>
+        <p>No. A custom price applies only to that simulated fill and is labeled as user-entered and unverified. Taiwan positions still use end-of-day quotes. U.S. positions show cost, not current market value or unrealized P&amp;L; realized P&amp;L is calculated from fill prices when you sell. No real funds are charged.</p>
       </details>
       <details>
         <summary>How can I adjust missing reminders?</summary>
@@ -134,7 +134,7 @@
         </section>
         <section>
           <h3>Market data, trademarks, and third-party content</h3>
-          <p>Taiwan data sources include the Taiwan Stock Exchange and Taipei Exchange; selected U.S. data comes from Yahoo Finance. Rights in third-party trademarks, names, indices, and data remain with their respective holders and are not included in our original-content copyright notice.</p>
+          <p>From 2.2.0 (12), Taiwan uses ten open datasets from TWSE and TPEx under the Open Government Data License v1.0. Profile &gt; Market Data Sources lists the datasets, providers and license links. U.S. prices are entered by the user; no U.S. market service is contacted. Rights in third-party trademarks, names, indices, and data remain with their respective holders and are not included in our original-content copyright notice.</p>
           <p>Attribution does not itself establish commercial or redistribution rights, or imply any partnership, sponsorship, certification, or endorsement by these organizations or Apple. Use of third-party content remains subject to applicable terms and licenses. This page grants no permission to reuse that content.</p>
         </section>
         <section>
@@ -171,14 +171,14 @@
 
         <section id="market-data">
           <h3>Market data and network connections</h3>
-          <p>The app connects to Taiwan Stock Exchange and Taipei Exchange services for Taiwan stocks, ETFs, indices, valuation data, trading activity, price history, and corporate actions. The market widget retrieves end-of-day data from the Taiwan Stock Exchange. U.S. screens connect to Yahoo Finance for delayed daily and historical data covering a curated set of stocks, ETFs, and major indices.</p>
-          <p>A request for a security's price history includes its symbol and the requested dates or period, so the provider may learn which security was queried. The app does not upload complete watchlists, complete browsing histories, paper positions, orders, or trading notes. This is separate from sending the individual parameters needed to retrieve market data.</p>
+          <p>From 2.2.0 (12), the app connects only to TWSE and TPEx OpenAPI services for bulk Taiwan end-of-day data, company information, valuation metrics and corporate-action dates. The widget uses a subset of the TWSE datasets. Supplemental website reports, historical query services, Yahoo Finance and other U.S. market feeds are no longer used.</p>
+          <p>This version requests bulk public datasets, not individual symbols or historical periods. U.S. catalog searches and custom prices are processed on the device. Watchlists, browsing records, virtual balances, positions, orders, fill prices and notes are not uploaded. Earlier test builds contacted U.S. and historical services; update to this build. Their past requests remain subject to the providers' policies at that time.</p>
           <p>The app's market-data connections do not use provider cookies or shared system credential storage. This does not mean providers do not process connection information.</p>
           <p>As with ordinary internet connections, these providers may receive an IP address, User-Agent, and standard connection metadata. Their handling of that information is governed by their respective policies.</p>
           <ul class="source-links">
             <li><a href="https://openapi.twse.com.tw/" rel="noreferrer">Taiwan Stock Exchange OpenAPI</a></li>
             <li><a href="https://www.tpex.org.tw/openapi/" rel="noreferrer">Taipei Exchange OpenAPI</a></li>
-            <li><a href="https://finance.yahoo.com/" rel="noreferrer">Yahoo Finance</a></li>
+            <li><a href="https://data.gov.tw/license" rel="noreferrer">Open Government Data License v1.0</a></li>
           </ul>
         </section>
 
@@ -217,7 +217,7 @@
         <section id="disclaimer">
           <h3>Service and investment notice</h3>
           <p>Stock Mastery provides end-of-day market information, paper-trading practice, and general educational material. It is not a broker. A paper order creates only a virtual record on your device, uses no real funds, and is never submitted as a real order. Simulated fills, commissions, taxes, and results are educational estimates and do not include every market condition, exchange rate, regulatory fee, brokerage fee, discount, minimum fee, tax effect, or product exception.</p>
-          <p>The app does not provide real trading, brokerage account opening, managed investing, personalized investment advice, or guaranteed returns. Taiwan data is end of day. U.S. data covers selected securities and uses delayed daily data; it is not a real-time or complete market feed. Data may be delayed, incomplete, or temporarily replaced by cached information. Confirm any real decision with official exchange and brokerage information.</p>
+          <p>The app does not provide real trading, brokerage account opening, managed investing, personalized investment advice, or guaranteed returns. Taiwan data is end of day. U.S. practice uses custom prices, not market quotes, and provides no automatic valuation. Legacy pending U.S. orders are preserved for cancellation but no longer fill automatically. Data may be delayed, incomplete, or temporarily replaced by cached information. Confirm any real decision with official exchange and brokerage information.</p>
         </section>
 
         <section>
@@ -231,7 +231,7 @@
   <footer>
     <div>
       <strong>Stock Mastery</strong>
-      <span>Taiwan &amp; U.S. market and paper-trading workspace</span>
+      <span>Taiwan end-of-day data and Taiwan/U.S. paper trading</span>
     </div>
     <nav aria-label="Legal and support links"><a href="#support">Support</a><a href="#copyright">Copyright</a><a href="#privacy">Privacy</a></nav>
     <p>© 2026 Yung Wen Cheng (Stock Mastery).<br>All rights reserved.</p>

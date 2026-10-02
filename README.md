@@ -26,6 +26,13 @@ Developer / original-content rights holder: Yung Wen Cheng. Stock Mastery is the
 - Documented local getting-started progress and custom prices, plus cookie-free market sessions without shared system credential storage.
 - Kept third-party data and licensing disclosures unchanged; these copy corrections do not resolve pending provider permissions or the App Store privacy questionnaire.
 
+## October 2, 2026 Build 12 Update
+
+- Matched build 12: ten attributed Taiwan OpenAPI datasets only; no supplemental website reports or historical queries.
+- U.S. practice now uses offline instrument names and user-entered fill prices. Cost is not market value; legacy pending U.S. orders can be cancelled but no longer fill automatically.
+- Retained the historical test-build disclosure rather than suggesting earlier Yahoo/history requests never occurred.
+- Kept the existing layout, contact address, local-data controls and bilingual privacy/support anchors. No tracking or new dependency was added.
+
 ## Compliance References
 
 - [Apple platform metadata](https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/): use the year and actual rights holder in the Copyright field; Apple supplies the symbol. Support URLs must expose genuine contact information.
