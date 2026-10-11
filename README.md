@@ -33,6 +33,14 @@ Developer / original-content rights holder: Yung Wen Cheng. Stock Mastery is the
 - Retained the historical test-build disclosure rather than suggesting earlier Yahoo/history requests never occurred.
 - Kept the existing layout, contact address, local-data controls and bilingual privacy/support anchors. No tracking or new dependency was added.
 
+## October 11, 2026 Pro / 2.3.0 Update
+
+- Added optional Apple monthly/yearly subscriptions, restore/manage/cancel instructions and the Apple Standard EULA. Prices remain those shown by the app and Apple's purchase confirmation.
+- Distinguished paid Pro access from virtual trading, and stock fill prices from manually updated derivatives marks. No live quotes, automatic exercise/assignment, settlement or forced liquidation are claimed.
+- Included TE/TF and MES/MNQ/MGC/MCL futures and the shared real/custom practice clock. Advancing dates changes expiration checks, without historical replay, automatic prices, option time decay or stock/commodity delivery.
+- Documented on-device StoreKit transaction verification, Apple billing and reports, local derivatives records, and user-initiated exports. Resetting data or deleting the app does not cancel subscriptions.
+- Preserved existing URLs, design, imagery, contact information, market-data disclosures and no-analytics behavior. No scripts or dependencies added.
+
 ## Compliance References
 
 - [Apple platform metadata](https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/): use the year and actual rights holder in the Copyright field; Apple supplies the symbol. Support URLs must expose genuine contact information.

@@ -35,7 +35,7 @@
       <img class="app-icon" src="../assets/app-icon.png?v=12" alt="Stock Mastery app icon" width="1024" height="1024">
       <p class="eyebrow">STOCK MASTERY / SUPPORT &amp; LEGAL</p>
       <h1 id="page-title">Stock Mastery<br>Support &amp; legal</h1>
-      <p class="lede">Get help with the app and learn how your information and third-party content are handled. Stock Mastery offers Taiwan end-of-day data, financial references and paper trading. U.S. practice uses custom fill prices, not a market feed. No real trading is provided.</p>
+      <p class="lede">Get help with the app and learn how your information and third-party content are handled. Stock Mastery offers Taiwan end-of-day data, financial references and paper trading. From 2.3.0, optional Pro unlocks Taiwan index, electronics and financial futures, micro U.S. index, gold and oil futures, and Taiwan and U.S. equity/ETF options practice. U.S. and derivatives practice uses custom prices. No intraday quotes or real trading are provided.</p>
       <div class="actions">
         <a class="button primary" href="#support">Contact Support</a>
         <a class="button secondary" href="#privacy">Read the Privacy Policy</a>
@@ -45,8 +45,8 @@
     <section class="facts" aria-label="Privacy summary">
       <article>
         <span class="fact-mark">01</span>
-        <h2>No account required</h2>
-        <p>Paper balances, orders, positions, watchlists, and reminder preferences stay on this device.</p>
+        <h2>No app account required</h2>
+        <p>Paper balances, orders, positions, watchlists, and reminder preferences stay on this device. Optional Pro purchases use your Apple Account.</p>
       </article>
       <article>
         <span class="fact-mark">02</span>
@@ -99,15 +99,26 @@
       <h2 id="faq-title">Common questions</h2>
       <details>
         <summary>Why does a quote differ from the current trading price?</summary>
-        <p>Taiwan uses official open end-of-day data. Holidays, pending publication or connection failures may leave older or cached data on screen; check the date. From 2.2.0 (12), U.S. practice uses prices you enter. U.S. quotes and historical charts for either market are not provided.</p>
+        <p>Taiwan uses official open end-of-day data. Holidays, pending publication or connection failures may leave older or cached data on screen; check the date. From 2.2.0 (12), U.S. practice uses prices you enter. U.S. quotes and historical charts for either market are not provided. Pro derivatives also use fill and mark prices you enter; prices do not change automatically when markets open or trade.</p>
       </details>
       <details>
         <summary>Can a paper order spend real money?</summary>
-        <p>No. Balances, orders, positions, and results are virtual records on your device. They are never sent to a broker and cannot be withdrawn or redeemed. A simulated result does not guarantee execution in a real market.</p>
+        <p>A paper order cannot. Balances, orders, positions, and results are virtual records on your device. They are never sent to a broker and cannot be withdrawn or redeemed. A simulated result does not guarantee execution in a real market. If you separately confirm a Pro subscription purchase, Apple charges a real subscription fee at the price shown in the purchase sheet.</p>
       </details>
       <details>
         <summary>Does a custom price change quotes or position values?</summary>
-        <p>No. A custom price applies only to that simulated fill and is labeled as user-entered and unverified. Taiwan positions still use end-of-day quotes. U.S. positions show cost, not current market value or unrealized P&amp;L; realized P&amp;L is calculated from fill prices when you sell. No real funds are charged.</p>
+        <p>For stocks, a custom price applies only to that simulated fill and is labeled as user-entered and unverified. Taiwan positions still use end-of-day quotes. U.S. stock positions show cost, not current market value or unrealized P&amp;L; realized P&amp;L is calculated from fill prices when you sell. For Pro derivatives, you can update a position's mark price manually, which changes simulated unrealized P&amp;L and account equity. It is not a market quote. These paper-trading actions do not charge real funds.</p>
+      </details>
+      <details>
+        <summary>What does Pro include, and how do I manage it?</summary>
+        <p>From 2.3.0, Pro lets you open or add to simulated positions in TAIEX TX, Mini-TAIEX MTX, Micro-TAIEX TMF, electronics TE and financial TF futures, plus Micro E-mini S&amp;P 500 MES, Micro E-mini Nasdaq-100 MNQ, Micro Gold MGC and Micro WTI Crude Oil MCL futures. It also includes TAIEX TXO options and standard U.S. equity/ETF options. You enter expiration dates, strikes, fill and mark prices, fees and practice margin. Listed contract chains, live quotes, automatic exercise, assignment, settlement, forced liquidation and stock or commodity delivery are not provided.</p>
+        <p>Pro offers monthly and yearly auto-renewable plans. See the app and Apple's purchase confirmation for the actual price and period. In Profile &gt; Stock Mastery Pro, you can restore purchases or manage your subscription. It renews automatically unless cancelled before the current period ends. You can also cancel in your Apple Account subscription settings. Deleting the app or resetting practice data does not cancel a subscription.</p>
+        <p>After Pro access expires, you cannot open or add to Pro positions. You can still view, update marks, close, export or reset existing practice records. The <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noreferrer">Apple Standard EULA</a> applies.</p>
+      </details>
+      <details>
+        <summary>How can I adjust practice time?</summary>
+        <p>The TWD and USD derivatives accounts share one practice clock. Follow real time, or set a custom scenario date and use Advance a Day. After a trade, time cannot move backwards. To practice an earlier date, export your records and reset the derivatives accounts first.</p>
+        <p>Advancing the date only changes expiration checks. It does not replay historical prices, generate or predict prices, or automatically change funds or option time value. Contract expiration is checked against the practice clock. Once a contract expires, new positions are blocked and existing positions still require manual closing.</p>
       </details>
       <details>
         <summary>How can I adjust missing reminders?</summary>
@@ -115,7 +126,7 @@
       </details>
       <details>
         <summary>How do I remove my records?</summary>
-        <p>In Profile, reset a paper account or use Clear Personal Settings. Clearing removes local watchlists, recent views, learning records, and paper-trading records; read the confirmation shown in the app. There is no login account or account-deletion process. Email support to request deletion of correspondence.</p>
+        <p>In Profile, reset a paper account or use Clear Personal Settings. The derivatives screen also offers export and reset. Clearing removes local watchlists, recent views, learning records, and paper-trading records; read the confirmation shown in the app. There is no app login account or app account-deletion process. Resetting or deleting the app does not cancel an Apple subscription. Email support to request deletion of correspondence.</p>
       </details>
     </section>
 
@@ -149,11 +160,12 @@
       <aside>
         <p class="eyebrow">PRIVACY POLICY</p>
         <h2 id="privacy-title">Privacy Policy</h2>
-        <p class="updated">Effective and last updated: October 2, 2026</p>
+        <p class="updated">Effective and last updated: October 11, 2026</p>
         <nav class="toc" aria-label="Privacy policy contents">
           <a href="#collection">Data collection</a>
           <a href="#market-data">Market data</a>
           <a href="#local-data">On-device data</a>
+          <a href="#subscriptions">Pro subscriptions</a>
           <a href="#notifications">Notifications</a>
           <a href="#sharing">Sharing &amp; tracking</a>
           <a href="#support-data">Email &amp; website</a>
@@ -166,12 +178,12 @@
         <section id="collection">
           <h3>Information we collect</h3>
           <p>This policy covers the Stock Mastery app, widgets, and this support website. The responsible developer is Yung Wen Cheng. Privacy contact: <a href="mailto:victoriacheng1122@gmail.com">victoriacheng1122@gmail.com</a>.</p>
-          <p>The current version does not require an account and does not ask for your name, phone number, address, or payment details. The app does not request access to your camera, photos, microphone, location, contacts, HealthKit data, or tracking permission.</p>
+          <p>The app does not require an account with us or ask you to provide us with your name, phone number, address, or payment details. If you choose Pro, Apple processes the purchase and payment through your Apple Account. The app does not request access to your camera, photos, microphone, location, contacts, HealthKit data, or tracking permission.</p>
         </section>
 
         <section id="market-data">
           <h3>Market data and network connections</h3>
-          <p>From 2.2.0 (12), the app connects only to TWSE and TPEx OpenAPI services for bulk Taiwan end-of-day data, company information, valuation metrics and corporate-action dates. The widget uses a subset of the TWSE datasets. Supplemental website reports, historical query services, Yahoo Finance and other U.S. market feeds are no longer used.</p>
+          <p>From 2.2.0 (12), the app's market-data features connect only to TWSE and TPEx OpenAPI services for bulk Taiwan end-of-day data, company information, valuation metrics and corporate-action dates. The widget uses a subset of the TWSE datasets. Supplemental website reports, historical query services, Yahoo Finance and other U.S. market feeds are no longer used. Apple connections for Pro subscriptions are described below; derivatives do not connect to a market-data service.</p>
           <p>This version requests bulk public datasets, not individual symbols or historical periods. U.S. catalog searches and custom prices are processed on the device. Watchlists, browsing records, virtual balances, positions, orders, fill prices and notes are not uploaded. Earlier test builds contacted U.S. and historical services; update to this build. Their past requests remain subject to the providers' policies at that time.</p>
           <p>The app's market-data connections do not use provider cookies or shared system credential storage. This does not mean providers do not process connection information.</p>
           <p>As with ordinary internet connections, these providers may receive an IP address, User-Agent, and standard connection metadata. Their handling of that information is governed by their respective policies.</p>
@@ -184,7 +196,13 @@
 
         <section id="local-data">
           <h3>Information stored on your device</h3>
-          <p>Virtual TWD and USD balances, paper orders, positions, results, order history, and custom fill prices are stored on your device. Watchlists, recent views, market cache, notification preferences, bookmarks, reading progress, and getting-started progress are also stored locally to preserve your state. This information is not uploaded to our servers and is never sent to a broker or exchange.</p>
+          <p>Virtual TWD and USD balances, paper orders, positions, results, order history, and custom fill prices are stored on your device. Watchlists, recent views, market cache, language and notification preferences, bookmarks, reading progress, and getting-started progress are also stored locally to preserve your state. Pro derivatives' custom contracts, expiration dates, strikes, mark prices, fees, practice margin, shared practice-clock settings and trading records are also stored on the device. This information is not uploaded to our servers and is never sent to a broker or exchange.</p>
+        </section>
+
+        <section id="subscriptions">
+          <h3>Pro subscriptions and Apple</h3>
+          <p>From 2.3.0, Pro is an optional auto-renewable subscription through Apple's App Store. Apple handles purchases, renewals, restoring purchases and subscription management. The app uses StoreKit on the device to verify Apple-provided transactions and subscription status, including product and transaction identifiers, validity periods, expiration, revocation or refund status, to determine Pro access. It does not send this transaction data to our servers.</p>
+          <p>We do not receive your Apple Account password, card number or other payment credentials. Apple handles account, payment, purchase and necessary connection information under its policies and may provide App Store sales and subscription reports to developers. See <a href="https://www.apple.com/legal/privacy/data/en/app-store/" rel="noreferrer">Apple's App Store &amp; Privacy</a>.</p>
         </section>
 
         <section id="notifications">
@@ -194,7 +212,7 @@
 
         <section id="sharing">
           <h3>Sharing, advertising, and tracking</h3>
-          <p>Stock Mastery contains no advertising SDK, third-party analytics SDK, or cross-app tracking SDK, and we do not sell personal data. Apart from network requests required to retrieve the market data described above, local watchlist and usage records are not provided to third parties.</p>
+          <p>Stock Mastery contains no advertising SDK, third-party analytics SDK, or cross-app tracking SDK, and we do not sell personal data. Market-data and Apple subscription connections are described above. Local watchlists and paper-trading records are not automatically provided to third parties. If you choose to export and share practice records, you choose the recipient and storage destination.</p>
         </section>
 
         <section id="support-data">
@@ -212,17 +230,18 @@
           <h3>Your data controls</h3>
           <p>Local records remain until you reset a paper account, clear personal settings in Profile, or delete the app. The system may remove cached market data sooner. Offloading an app can preserve its data and is different from deleting it. Device or computer backups may retain earlier copies; manage these through Apple's backup settings.</p>
           <p>We have no account server that can remotely access or delete local records. You can change notification permission in system Settings at any time. For access, correction, or deletion of email correspondence, contact the support address above.</p>
+          <p>Clearing local records or deleting the app does not cancel Pro or delete purchase records held by Apple. Manage subscriptions through Manage Subscription in the app or your Apple Account settings.</p>
         </section>
 
         <section id="disclaimer">
           <h3>Service and investment notice</h3>
           <p>Stock Mastery provides end-of-day market information, paper-trading practice, and general educational material. It is not a broker. A paper order creates only a virtual record on your device, uses no real funds, and is never submitted as a real order. Simulated fills, commissions, taxes, and results are educational estimates and do not include every market condition, exchange rate, regulatory fee, brokerage fee, discount, minimum fee, tax effect, or product exception.</p>
-          <p>The app does not provide real trading, brokerage account opening, managed investing, personalized investment advice, or guaranteed returns. Taiwan data is end of day. U.S. practice uses custom prices, not market quotes, and provides no automatic valuation. Legacy pending U.S. orders are preserved for cancellation but no longer fill automatically. Data may be delayed, incomplete, or temporarily replaced by cached information. Confirm any real decision with official exchange and brokerage information.</p>
+          <p>The app does not provide real trading, brokerage account opening, managed investing, personalized investment advice, or guaranteed returns. Taiwan data is end of day. U.S. and derivatives practice uses custom prices, not market quotes; valuation does not update automatically when markets open. Pro derivatives do not verify that a contract is exchange-listed or perform automatic exercise, assignment, expiration settlement, forced liquidation or stock or commodity delivery. Expiration is checked against the shared practice clock. After expiration, new positions are blocked and existing positions still require manual closing. Advancing the date does not replay historical prices, generate prices or apply option time decay. Legacy pending U.S. orders are preserved for cancellation but no longer fill automatically. Data may be delayed, incomplete, or temporarily replaced by cached information. Confirm any real decision with official exchange and brokerage information.</p>
         </section>
 
         <section>
           <h3>Policy changes and contact</h3>
-          <p>If a future version introduces accounts, cloud sync, subscriptions, or new data practices, this page will be updated. Questions about this policy can be sent to <a href="mailto:victoriacheng1122@gmail.com">victoriacheng1122@gmail.com</a>.</p>
+          <p>If a future version introduces accounts, cloud sync, or new data practices, this page will be updated. Questions about this policy can be sent to <a href="mailto:victoriacheng1122@gmail.com">victoriacheng1122@gmail.com</a>.</p>
         </section>
       </article>
     </section>
